@@ -1,0 +1,6 @@
+*.mp4
+video/
+
+.vscode/
+
+__pycache__

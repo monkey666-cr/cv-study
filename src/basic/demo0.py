@@ -1,11 +1,12 @@
 """
 opencv 展示图片
 """
+import os
 
 import cv2
 
 # 读取图片
-img = cv2.imread("./img/cat/jpg")
+img = cv2.imread(os.path.join(os.path.dirname(__file__), "img", "cat.jpg"))
 
 
 while True:
